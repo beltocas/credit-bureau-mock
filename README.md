@@ -1,21 +1,21 @@
 # credit-bureau-mock
 
 API **simulada** de scoring crediticio para el proyecto *Agente de Calificación de Leads*
-(curso Agentes de IA, UTEC). Se sirve gratis con
-[My JSON Server](https://my-json-server.typicode.com/) a partir de `db.json`.
+(curso Agentes de IA, UTEC). Se sirve gratis desde GitHub (raw.githubusercontent.com),
+con un archivo JSON por DNI en `scores/`.
 
 > ⚠️ Todos los datos son ficticios. Los DNI `00000001`–`00000005` no corresponden a
 > personas reales. No es un buró de crédito ni usa información de Equifax, Experian/Sentinel
 > ni de la SBS.
 
-## Endpoints
+## Endpoint
 
 ```
-GET https://my-json-server.typicode.com/<usuario>/credit-bureau-mock/scores
-GET https://my-json-server.typicode.com/<usuario>/credit-bureau-mock/scores/{dni}
+GET https://raw.githubusercontent.com/beltocas/credit-bureau-mock/main/scores/{dni}.json
 ```
 
-Un DNI inexistente devuelve `404`.
+Un DNI inexistente devuelve `404`. GitHub cachea los archivos unos minutos, así que un
+cambio puede tardar en verse.
 
 ## Perfiles
 
@@ -30,7 +30,9 @@ Un DNI inexistente devuelve `404`.
 El `score` va de 0 a 999. `sbs_rating` usa las categorías de calificación del deudor
 de la SBS (Normal, CPP, Deficiente, Dudoso, Pérdida).
 
-## Limitaciones de My JSON Server
+## `db.json`
 
-- Solo lectura: los POST/PUT/DELETE responden, pero no persisten.
-- `db.json` debe estar en la raíz de un repositorio **público** y pesar menos de 10 KB.
+Contiene los mismos perfiles en el formato de
+[My JSON Server](https://my-json-server.typicode.com/) (`GET .../scores/{dni}`), que se
+dejó como alternativa: en octubre de 2026 el servicio respondía `error code: 1016`.
+Si cambias un perfil, actualiza `db.json` y el archivo en `scores/`.
