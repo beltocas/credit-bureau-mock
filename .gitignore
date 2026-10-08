@@ -1,0 +1,5 @@
+# CSV original de Kaggle: cada quien lo descarga (ver README).
+raw/
+
+.DS_Store
+__pycache__/

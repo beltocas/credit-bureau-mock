@@ -1,0 +1,11 @@
+{
+  "id": "10000246",
+  "score": 671,
+  "risk_level": "bajo",
+  "sbs_rating": "Normal",
+  "total_debt_pen": 199650.0,
+  "active_entities": 7,
+  "updated_at": "2026-09-30",
+  "source": "kaggle:lorenzozoppelletto/financial-risk-for-loan-approval",
+  "source_row": 5129
+}

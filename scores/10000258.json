@@ -1,0 +1,11 @@
+{
+  "id": "10000258",
+  "score": 534,
+  "risk_level": "muy_alto",
+  "sbs_rating": "Dudoso",
+  "total_debt_pen": 209516.25,
+  "active_entities": 3,
+  "updated_at": "2026-09-30",
+  "source": "kaggle:lorenzozoppelletto/financial-risk-for-loan-approval",
+  "source_row": 5294
+}

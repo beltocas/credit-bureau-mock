@@ -1,0 +1,52 @@
+[
+  {
+    "id": "00000001",
+    "score": 780,
+    "risk_level": "bajo",
+    "sbs_rating": "Normal",
+    "total_debt_pen": 8500.0,
+    "active_entities": 2,
+    "updated_at": "2026-09-30",
+    "source": "curated"
+  },
+  {
+    "id": "00000002",
+    "score": 610,
+    "risk_level": "medio",
+    "sbs_rating": "CPP",
+    "total_debt_pen": 23400.0,
+    "active_entities": 4,
+    "updated_at": "2026-09-30",
+    "source": "curated"
+  },
+  {
+    "id": "00000003",
+    "score": 420,
+    "risk_level": "alto",
+    "sbs_rating": "Deficiente",
+    "total_debt_pen": 41200.0,
+    "active_entities": 5,
+    "updated_at": "2026-09-30",
+    "source": "curated"
+  },
+  {
+    "id": "00000004",
+    "score": null,
+    "risk_level": "sin_historial",
+    "sbs_rating": null,
+    "total_debt_pen": 0.0,
+    "active_entities": 0,
+    "updated_at": "2026-09-30",
+    "source": "curated"
+  },
+  {
+    "id": "00000005",
+    "score": 250,
+    "risk_level": "muy_alto",
+    "sbs_rating": "Dudoso",
+    "total_debt_pen": 67800.0,
+    "active_entities": 7,
+    "updated_at": "2026-09-30",
+    "source": "curated"
+  }
+]
