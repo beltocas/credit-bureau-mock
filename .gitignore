@@ -3,3 +3,6 @@ raw/
 
 .DS_Store
 __pycache__/
+
+# Copias de conflicto de iCloud
+* [0-9].*
